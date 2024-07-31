@@ -9,11 +9,6 @@ Write-Output "Installing Microsoft Office"
 timeout /t 3 /nobreak
 winget install Microsoft.Office --accept-package-agreements --accept-source-agreements -s winget
 
-# Microsoft Teams
-Write-Output "Installing Microsoft Teams"
-timeout /t 3 /nobreak
-winget install Microsoft.Teams --accept-package-agreements --accept-source-agreements -s winget
-
 # Apple Music
 Write-Output "Installing Apple Music"
 timeout /t 3 /nobreak
@@ -33,11 +28,6 @@ winget install 9NBLGGH5R558 --accept-package-agreements --accept-source-agreemen
 Write-Output "Installing Visual Studio Code"
 timeout /t 3 /nobreak
 winget install XP9KHM4BK9FZ7Q --accept-package-agreements --accept-source-agreements -s winget
-
-# Company Portal
-Write-Output "Installing Company Portal"
-timeout /t 3 /nobreak
-winget install 9WZDNCRFJ3PZ --accept-package-agreements --accept-source-agreements -s msstore
 
 # Lets you check if all apps installed correctly
 pause
